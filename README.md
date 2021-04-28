@@ -1,6 +1,7 @@
 # Pico Motor Driver HAT
 Pico Driver Motor HAT is a DC motor control module that is powered by one H-bridge IC L293D with the motor input supply range 6 V-24 V. It is designed to connect 2 DC motors or 1 stepper motor simultaneously that would help the user to make projects in a compact size with high efficiency.
 
+<img src="https://cdn.shopify.com/s/files/1/1217/2104/products/motordriverforPico_700x.png?v=1619523627" width="400" height="400" />
 
 ## How to use ?
 
