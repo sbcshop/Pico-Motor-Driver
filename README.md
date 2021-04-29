@@ -32,4 +32,4 @@ Pico Driver Motor HAT is a DC motor control module that is powered by one H-brid
 
 <img src="https://github.com/sbcshop/Raspberry-Pi-Pico-RFID-Expansion/blob/main/images/thonny-interpreter.PNG" />
 
-* Click on green play button to run example of Pico RTC HAT.
+* Click on green play button to run example of Pico Motor Driver HAT.
