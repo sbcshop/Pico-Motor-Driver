@@ -7,12 +7,14 @@ Pico Driver Motor HAT is a DC motor control module that is powered by one H-brid
 
 ### Board Details :
 
-* L293D EN1 - PICO GP17
-* L293D EN2 - PICO GP16
-* L293D IN1 - PICO GP21
-* L293D IN2 - PICO GP20
-* L293D IN3 - PICO GP19
-* L293D IN4 - PICO GP18
+| L293D     | PICO |
+|-----------|------|
+| L293D EN1 | GP17 |
+| L293D EN2 | GP16 |
+| L293D IN1 | GP21 |
+| L293D IN2 | GP20 |
+| L293D IN3 | GP19 |
+| L293D IN4 | GP18 |
 
 
 
