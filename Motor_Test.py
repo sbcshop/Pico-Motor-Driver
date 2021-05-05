@@ -9,19 +9,40 @@ m4 = Pin(18, Pin.OUT)
 en1 = Pin(17, Pin.OUT)
 en2 = Pin(16, Pin.OUT)
 
-en1(1)  # motor 1 enable, set value 0 to disable
-en2(1)  # motor 2 enable, set value 0 to disable
+def Enable_motor():
+    en1(1)  # motor 1 enable, set value 0 to disable
+    en2(1)  # motor 2 enable, set value 0 to disable
 
-while True:
-    #Both Motor in forward direction
+def Motor1_forward():
     m1(1)
     m2(0)
-    m3(1)
-    m4(0)
-    utime.sleep(0.5)
-    #Both Motor in Reverse direction
+    
+def Motor1_reverse():
     m1(0)
     m2(1)
+    
+def Motor2_forward():
+    m3(1)
+    m4(0)
+    
+def Motor2_reverse():
     m3(0)
     m4(1)
-    utime.sleep(0.5)
+    
+def Motor_stop():
+    m1(0)
+    m2(0)
+    m3(0)
+    m4(0)
+    
+while True:
+    Enable_motor()
+    Motor1_forward()
+    Motor2_forward()
+    utime.sleep(2) # Both motor in Forward direction for 2 seconds.
+    Motor_stop()
+    utime.sleep(2) # Both motor in Stop position.
+    Motor2_reverse()
+    Motor2_reverse()
+    utime.sleep(2) # Both motor in Reverse direction for 2 seconds.
+        
