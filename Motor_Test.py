@@ -42,7 +42,7 @@ while True:
     utime.sleep(2) # Both motor in Forward direction for 2 seconds.
     Motor_stop()
     utime.sleep(2) # Both motor in Stop position.
-    Motor2_reverse()
+    Motor1_reverse()
     Motor2_reverse()
     utime.sleep(2) # Both motor in Reverse direction for 2 seconds.
         
